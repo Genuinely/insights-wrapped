@@ -67,6 +67,7 @@ const Download = () => {
       </DropdownMenuTrigger>
       <DropdownMenuContent>
         <DropdownItem onClick={() => handleDownloadClick(data)}>{t("as_csv")}</DropdownItem>
+        <DropdownItem onClick={() => handleDownloadClick(data)}>{t("wrapped")}</DropdownItem>
       </DropdownMenuContent>
     </Dropdown>
   );
